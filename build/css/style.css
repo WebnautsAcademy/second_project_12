@@ -47,6 +47,7 @@ body {
   width: 340px;
 }
 .navigation {
+  position: relative;
   width: 135px;
 }
 @media screen and (max-width: 768px) {
