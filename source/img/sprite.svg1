@@ -11,16 +11,15 @@
   </symbol>
 </svg>
 
-<svg width="0" height="0" class="hidden">
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" id="open-btn">
-    <circle cx="15" cy="15" r="15" fill="#3C3C3C"></circle>
-    <g clip-path="url(#clip0)">
-      <path d="M15 17.538L19.538 13l1.296 1.296L15 20.13l-5.834-5.834L10.462 13 15 17.538z" fill="#fff"></path>
-    </g>
-    <defs>
-      <clipPath id="clip0">
-        <path fill="#fff" transform="translate(4 2)" d="M0 0h22v22H0z"></path>
-      </clipPath>
-    </defs>
+<svg width="22" height="22" class='hidden'>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id='svg-close-case'>
+    <path d="M11 9.9257L6.46245 14.4632L5.16629 13.167L11 7.33336L16.8336 13.167L15.5375 14.4632L11 9.9257Z" fill="#83C1FA"/>
   </symbol>
 </svg>
+
+<svg width="22" height="22" class='hidden'>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" id='svg-open-case'>
+    <path d="M11 12.0743L15.5375 7.53683L16.8337 8.83299L11 14.6667L5.16638 8.83299L6.46255 7.53683L11 12.0743Z" fill="white"/>
+  </symbol>
+</svg>
+

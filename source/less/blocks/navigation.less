@@ -12,7 +12,7 @@
     }
 
     &__list{
-        .list-reset;
+        .list-reset();
 
         @media screen and (max-width: @medium) {
             /*display: inline-block;*/
@@ -54,6 +54,7 @@
     }
 
     &__link {
+        font-family: @proDisplay;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -70,7 +71,7 @@
 
         @media screen and (max-width: @medium) {
             position: absolute;
-            .btn-reset;
+            .btn-reset();
             display: block;
             position: absolute;
             top: 24px;

@@ -7,6 +7,8 @@ const browserSync = require("browser-sync").create();
 const svgstore = require("gulp-svgstore");
 const rename = require("gulp-rename");
 
+
+
 gulp.task("html", () => {
   return gulp.src("source/*.html").pipe(gulp.dest("./build"));
 });
@@ -35,6 +37,7 @@ gulp.task("watch", () => {
       baseDir: "./build",
     },
   });
+
 
   gulp.watch("./source/less/**/*.less", gulp.series("css"));
   gulp.watch("./source/img/**", gulp.series("imagemin"));

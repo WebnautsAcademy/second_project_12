@@ -11,7 +11,7 @@
 }
 
 .header__wrapper {
-    .container;
+    .container();
     display: flex;
     align-items: flex-start;
     padding-top: 27px;
@@ -43,12 +43,12 @@
 }
 
 .header__mobile-btn {
-    .btn-reset;
+    .btn-reset();
     display: none;
 
     @media screen and (max-width: @medium){
         .header__mobile-btn  {
-            .btn-reset;
+            .btn-reset();
             display: block;
         }    
     
@@ -57,6 +57,7 @@
 
 .header__btn {
     margin-left: auto;
+    text-transform: uppercase;
 
     @media screen and (max-width: @medium) {
         display: none;

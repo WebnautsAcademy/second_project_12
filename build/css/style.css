@@ -1,23 +1,27 @@
+/*@bebasNeueB: 'BebasNeueBold';
+@bebasNeueR: 'BebasNeueRegular';
+@proDisplayM: 'SFProDisplay-Medium';
+@proDisplayR: 'SFProDisplay-Regular';*/
 @font-face {
-  font-family: 'BebasNeue', sans-serif;
+  font-family: 'BebasNeueBold', sans-serif;
   src: url(/build/fonts/BebasNeueBold.woff);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'BebasNeue', sans-serif;
+  font-family: 'BebasNeueRegular', sans-serif;
   src: url(/build/fonts/BebasNeueRegular.woff);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'SFProDisplay';
+  font-family: 'SFProDisplay-Medium';
   src: url(/build/fonts/SFProDisplay-Medium.woff);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'SFProDisplay';
+  font-family: 'SFProDisplay-Regular';
   src: url(/build/fonts/SFProDisplay-Regular.woff);
   font-weight: 400;
   font-style: normal;
@@ -30,6 +34,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+  font-family: 'BebasNeue';
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -106,6 +111,7 @@ body {
   }
 }
 .navigation__link {
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -133,7 +139,7 @@ body {
   }
 }
 .main-title {
-  font-family: 'BebasNeueBold';
+  font-family: 'BebasNeue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -156,7 +162,7 @@ body {
   text-shadow: 3px 5px 0px #83C1FA;
 }
 .title {
-  font-family: 'BebasNeueRegular';
+  font-family: 'BebasNeue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -228,6 +234,7 @@ body {
 }
 .header__btn {
   margin-left: auto;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
   .header__btn {
@@ -255,7 +262,7 @@ body {
   width: 100%;
   max-width: 485px;
   text-align: left;
-  font-family: 'SFProDisplay-Medium';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -313,7 +320,7 @@ body {
   width: 130px;
   height: 130px;
   background-color: #FFFFFF;
-  font-family: 'BebasNeueRegular';
+  font-family: 'BebasNeue';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -334,7 +341,7 @@ body {
   padding-top: 148px;
 }
 .about__text {
-  font-family: 'SFProDisplayRegular';
+  font-family: 'SFProDisplay';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
