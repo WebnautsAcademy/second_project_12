@@ -4,25 +4,25 @@
 @proDisplayR: 'SFProDisplay-Regular';*/
 @font-face {
   font-family: 'BebasNeueBold', sans-serif;
-  src: url(/build/fonts/BebasNeueBold.woff);
+  src: url(../fonts/BebasNeueBold.woff);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'BebasNeueRegular', sans-serif;
-  src: url(/build/fonts/BebasNeueRegular.woff);
+  src: url(../fonts/BebasNeueRegular.woff);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'SFProDisplay-Medium';
-  src: url(/build/fonts/SFProDisplay-Medium.woff);
+  src: url(../fonts/SFProDisplay-Medium.woff);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'SFProDisplay-Regular';
-  src: url(/build/fonts/SFProDisplay-Regular.woff);
+  src: url(../fonts/SFProDisplay-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
@@ -34,7 +34,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  font-family: 'BebasNeue';
+  font-family: 'Bebas Neue';
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -139,7 +139,7 @@ body {
   }
 }
 .main-title {
-  font-family: 'BebasNeue';
+  font-family: 'Bebas Neue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -162,7 +162,7 @@ body {
   text-shadow: 3px 5px 0px #83C1FA;
 }
 .title {
-  font-family: 'BebasNeue';
+  font-family: 'Bebas Neue';
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -320,7 +320,7 @@ body {
   width: 130px;
   height: 130px;
   background-color: #FFFFFF;
-  font-family: 'BebasNeue';
+  font-family: 'Bebas Neue';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -351,4 +351,72 @@ body {
   color: #FFFFFF;
   padding-left: 298px;
   max-width: 615px;
+}
+.specialization__wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 106px;
+  padding-bottom: 220px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.specialization__wrapper .slider {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 185px;
+  left: 785px;
+}
+.specialization__title {
+  position: absolute;
+  top: 50px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.slider__paragraph {
+  position: relative;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.slider__paragraph::before {
+  position: absolute;
+  content: " ";
+  height: 1px;
+  width: 615px;
+  top: 15px;
+  left: 785px;
+  color: #83C1FA;
+}
+.slider__paragraph--active {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #83C1FA;
+}
+.slider__btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 268px;
 }
