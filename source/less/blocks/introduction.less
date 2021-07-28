@@ -1,0 +1,51 @@
+
+.introduction__wrapper {
+    .container();
+    position: relative;
+    padding-top: 106px;
+    padding-bottom: 220px;
+    border-bottom: 1px solid @white;
+
+}
+
+.introduction__title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 68px;
+}
+
+.introduction__dscr{
+    position: relative;
+    width: 100%;
+    max-width: 485px;
+    text-align: left;
+    font-family: @proDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 280px;
+    color: @white;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 253px;
+        height: 1px; 
+        top: 9px;
+        left: 0;
+        display: block;
+        background-color: #4F4F4F;
+    }
+      
+}
+
+
+.introduction__photo {
+    position: absolute;
+    top: 106px;
+    right: 0;
+    width: 608px;
+    height: 509px;
+    z-index: 0;
+}

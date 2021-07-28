@@ -4,8 +4,6 @@
 
     &__switch {
         .btn-reset();
-        background-color: tomato;
-        border-radius: 50%;
         width: 20px;
         height: 20px;
         display: block;
@@ -13,10 +11,9 @@
 }
 
 .header__wrapper {
-    .container;
+    .container();
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     padding-top: 27px;
     padding-bottom: 27px;
 
@@ -46,12 +43,12 @@
 }
 
 .header__mobile-btn {
-    .btn-reset;
+    .btn-reset();
     display: none;
 
     @media screen and (max-width: @medium){
         .header__mobile-btn  {
-            .btn-reset;
+            .btn-reset();
             display: block;
         }    
     
@@ -60,6 +57,7 @@
 
 .header__btn {
     margin-left: auto;
+    text-transform: uppercase;
 
     @media screen and (max-width: @medium) {
         display: none;

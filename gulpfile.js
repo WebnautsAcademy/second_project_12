@@ -4,6 +4,10 @@ const imagemin = require("gulp-imagemin");
 const plumber = require("gulp-plumber");
 const less = require("gulp-less");
 const browserSync = require("browser-sync").create();
+const svgstore = require("gulp-svgstore");
+const rename = require("gulp-rename");
+
+
 
 gulp.task("html", () => {
   return gulp.src("source/*.html").pipe(gulp.dest("./build"));
@@ -34,12 +38,14 @@ gulp.task("watch", () => {
     },
   });
 
+
   gulp.watch("./source/less/**/*.less", gulp.series("css"));
   gulp.watch("./source/img/**", gulp.series("imagemin"));
   gulp.watch("./source/*.html", gulp.series("html"));
   gulp.watch("./source/less/**/*.less").on("change", browserSync.reload);
   gulp.watch("./source/*.html").on("change", browserSync.reload);
 });
+
 
 gulp.task(
   "start",
@@ -51,3 +57,14 @@ gulp.task(
     .pipe(sass())
     .pipe(gulp.dest("build/css"));
 });*/
+
+
+gulp.task("sprite", function () {
+  return gulp.src("source/img/icons/*.svg")
+    .pipe(imagemin([imagemin.svgo()]))
+    .pipe(svgstore({
+      inlineSvg: true
+    }))
+    .pipe(rename("sprite.svg"))
+    .pipe(gulp.dest("build/img"));
+});
