@@ -146,6 +146,8 @@ body {
   line-height: 190px;
   letter-spacing: 0em;
   text-align: left;
+  /*height: 190px;
+    width: 511px;*/
 }
 @media screen and (max-width: 768px) {
   .main-title {
@@ -365,6 +367,9 @@ body {
   border-bottom: 1px solid #FFFFFF;
 }
 .specialization__title {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   padding-left: 15px;
   font-size: 36px;
   font-style: normal;
@@ -390,17 +395,29 @@ body {
   margin-left: 40px;
   color: #FFFFFF;
 }
+<<<<<<< Updated upstream
 .slider__item .slider__paragraph::before {
+=======
+.slider__item::before {
+>>>>>>> Stashed changes
   content: "";
   display: block;
   position: absolute;
   height: 1px;
   width: 615px;
+<<<<<<< Updated upstream
   margin-top: 20px;
   background-color: #FFFFFF;
   opacity: 0.2;
 }
 .slider__item .slider__paragraph .slider__number {
+=======
+  margin-top: 40px;
+  background-color: #FFFFFF;
+  opacity: 0.2;
+}
+.slider__item .slider__number {
+>>>>>>> Stashed changes
   position: absolute;
   display: block;
   width: 22px;
@@ -429,9 +446,28 @@ body {
   position: absolute;
   height: 1px;
   width: 615px;
+<<<<<<< Updated upstream
   margin-top: 20px;
   background-color: #83C1FA;
   opacity: 1;
+=======
+  margin-top: 40px;
+  background-color: #83C1FA;
+  opacity: none;
+}
+.slider__item--active .slider__number {
+  position: absolute;
+  display: block;
+  width: 22px;
+  height: 24px;
+  color: #4F4F4F;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  top: 20px;
+>>>>>>> Stashed changes
 }
 .specialization__wrapper .slider {
   padding: 0;
@@ -491,6 +527,7 @@ body {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-family: 'Bebas Neue';
   font-size: 190px;
   font-style: normal;
   font-weight: 700;
@@ -522,6 +559,15 @@ body {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
 }
+<<<<<<< Updated upstream
+=======
+.project_lower {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+>>>>>>> Stashed changes
 .presentation__wrapper {
   width: 100%;
   max-width: 1230px;
