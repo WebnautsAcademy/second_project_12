@@ -395,29 +395,17 @@ body {
   margin-left: 40px;
   color: #FFFFFF;
 }
-<<<<<<< Updated upstream
 .slider__item .slider__paragraph::before {
-=======
-.slider__item::before {
->>>>>>> Stashed changes
   content: "";
   display: block;
   position: absolute;
   height: 1px;
   width: 615px;
-<<<<<<< Updated upstream
   margin-top: 20px;
   background-color: #FFFFFF;
   opacity: 0.2;
 }
 .slider__item .slider__paragraph .slider__number {
-=======
-  margin-top: 40px;
-  background-color: #FFFFFF;
-  opacity: 0.2;
-}
-.slider__item .slider__number {
->>>>>>> Stashed changes
   position: absolute;
   display: block;
   width: 22px;
@@ -435,7 +423,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   margin-left: 40px;
   color: #83C1FA;
@@ -446,16 +433,11 @@ body {
   position: absolute;
   height: 1px;
   width: 615px;
-<<<<<<< Updated upstream
   margin-top: 20px;
   background-color: #83C1FA;
   opacity: 1;
-=======
-  margin-top: 40px;
-  background-color: #83C1FA;
-  opacity: none;
 }
-.slider__item--active .slider__number {
+.slider__item--active .slider__paragraph .slider__number {
   position: absolute;
   display: block;
   width: 22px;
@@ -467,7 +449,6 @@ body {
   line-height: 24px;
   text-align: left;
   top: 20px;
->>>>>>> Stashed changes
 }
 .specialization__wrapper .slider {
   padding: 0;
@@ -559,15 +540,12 @@ body {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
 }
-<<<<<<< Updated upstream
-=======
 .project_lower {
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
->>>>>>> Stashed changes
 .presentation__wrapper {
   width: 100%;
   max-width: 1230px;
