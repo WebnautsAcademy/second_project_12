@@ -369,7 +369,7 @@ body {
 .specialization__title {
   padding: 0;
   margin: 0;
-  list-style: none;
+  text-decoration: none;
   padding-left: 15px;
   font-size: 36px;
   font-style: normal;
@@ -507,7 +507,7 @@ body {
 .project__upper .decorwrite__title {
   padding: 0;
   margin: 0;
-  list-style: none;
+  text-decoration: none;
   font-family: 'Bebas Neue';
   font-size: 190px;
   font-style: normal;
@@ -540,11 +540,83 @@ body {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
 }
-.project_lower {
+.project__lower {
   position: relative;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  margin-top: 66px;
+  height: 675px;
+}
+.project__lower .project__counter {
+  position: absolute;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.project__lower .project__title {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+  position: absolute;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 164px;
+  height: 36px;
+  top: 0px;
+  margin-left: 350px;
+}
+.project__lower .project__text {
+  position: absolute;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 408px;
+  width: 245px;
+  margin-top: 64px;
+  margin-left: 350px;
+}
+.project__lower .project__link {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 92px;
+  height: 24px;
+  margin-left: 385px;
+  margin-top: 552px;
+}
+.project__lower .project__icon {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 350px;
+  margin-top: 552px;
+}
+.project__lower .project__slider {
+  position: absolute;
+  height: 671px;
+  width: 615px;
+  margin-left: 600px;
 }
 .presentation__wrapper {
   width: 100%;
@@ -621,7 +693,7 @@ body {
 .presentation__left .presentation__title {
   padding: 0;
   margin: 0;
-  list-style: none;
+  text-decoration: none;
   font-family: 'Bebas Neue';
   font-size: 36px;
   font-style: normal;
@@ -632,4 +704,41 @@ body {
   width: 195px;
   height: 36px;
   text-transform: uppercase;
+}
+.review__wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex-box;
+  vertical-align: center;
+  padding-top: 40px;
+  padding-bottom: 220px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.review_title {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 36px;
+  width: 214px;
+}
+.gallery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+}
+.gallery__item {
+  padding-left: 30px;
+  padding-right: 30px;
 }
